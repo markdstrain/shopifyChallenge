@@ -39,10 +39,10 @@ function Responses() {
                                                             {responses &&
                                                                       responses.map(r =>
                                                                                 <Card className='filled-card mb-3' key={r.time}>
-                                                                                          <div>
+                                                                                          <div className='card-div'>
                                                                                                    Prompt : {r.prompt},
                                                                                           </div>
-                                                                                          <div>
+                                                                                          <div className='card-div '>
                                                                                                    Result:  {r.result}
                                                                                                    <span className='time'>{moment(r.time).format('MMMM Do YYYY, h:mm:ss a')}</span>
                                                                                           </div>
