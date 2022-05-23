@@ -1,6 +1,6 @@
 import React, {useEffect}from 'react';
 import moment from 'moment';
-import { Row, Container, Form, Card } from 'react-bootstrap';
+import { Container,  Card } from 'react-bootstrap';
 import "./Responses.css";
 
 function Responses() {
