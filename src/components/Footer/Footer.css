@@ -1,0 +1,157 @@
+.home-container{
+          min-height: 100vh;
+          width: 100% !important;
+          position:relative;
+          background-color: rgba(0, 0, 0, 0.7);
+}
+.home-content-container{
+          top: 20%;
+          height: inherit;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+.home-words{
+          color: whitesmoke   ;
+
+}
+.home-small-words{
+          color: rgb(230, 114, 133);
+}
+.home-image{
+          display: flex;
+          justify-content: center;
+}
+
+.about-text{
+          color: whitesmoke;
+}
+.title{
+          color: whitesmoke;
+}
+.home-body{
+          padding-bottom: 20%;
+}
+
+.link-footer{
+          color: whitesmoke;
+          font-size: 3rem;
+}
+
+.icons-container{
+        max-width: 100%;  
+        width: 100%;
+}
+.email-anchor{
+          text-decoration: none;
+}
+.form-card{
+          width: 70%;
+          background: rgba(255, 252, 252, 0.33) !important;
+          margin-left: 15%;
+          border: 1px solid black !important;    
+        
+}
+.footer{
+          background-color: black;
+          max-width: 100% !important;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+}
+.form-row{
+          width: 100%;
+          display: flex !important;
+         flex-direction: row;
+         justify-content: center !important;
+}
+.form-box{
+          background-color: rgba(255, 252, 252, 0.33) !important;
+          width: 80% !important;
+          
+}
+.form-label{
+          width: 80% !important;
+}
+
+h1{
+          font-size: 6.5vw !important;
+}
+button{
+          background-color: rgba(52,52,52,0);
+          border: none;
+          
+        
+}
+button ul {
+          list-style-type: none;
+          background-color: none !important;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+}
+button ul li {
+          --c: goldenrod;
+          color: var(--c);
+          font-size: 16px;
+          border: 0.3em solid var(--c);
+          border-radius: 0.5em;
+          width: 8em;
+          height: 3em;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-family: sans-serif;
+          letter-spacing: 0.1em;
+          text-align: center;
+          line-height: 3em;
+          position: relative;
+          overflow: hidden;
+          z-index: 1;
+          transition: 0.5s;
+          margin: 1em;
+}
+button ul li span {
+          position: absolute;
+          width: 25%;
+          height: 100%;
+          background-color: var(--c);
+          transform: translateY(150%);
+          border-radius: 50%;
+          left: calc((var(--n) - 1) * 25%);
+          transition: 0.5s;
+          transition-delay: calc((var(--n) - 1) * 0.1s);
+          z-index: -1;
+}
+button ul li:hover {
+          color: whitesmoke;
+          cursor: pointer;
+}
+      
+button ul li:hover span {
+          transform: translateY(0) scale(2);
+          cursor: pointer;
+}
+      
+button ul li span:nth-child(1) {
+          --n: 1;
+}
+      
+button ul li span:nth-child(2) {
+          --n: 2;
+}
+      
+button ul li span:nth-child(3) {
+          --n: 3;
+}
+      
+button ul li span:nth-child(4) {
+          --n: 4;
+}
+.openAI-link{
+          color: goldenrod;
+}
+.openAI-link:hover{
+          color: rgb(207, 106, 123);
+}

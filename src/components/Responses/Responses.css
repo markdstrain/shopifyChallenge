@@ -1,0 +1,28 @@
+.responses-container{
+          top: 20%;
+          position: relative;
+}
+
+.response-body{
+          height: 100vh;
+}
+.response-title{
+          padding-top: 15%;
+          color: whitesmoke;
+}
+.card-container{
+          height: inherit;
+          width: 70% !important;
+}
+.empty-card{
+          background: rgba(255, 252, 252, 0.33) !important;   
+          color: whitesmoke;
+}
+.filled-card{
+          background: rgba(255, 252, 252, 0.33) !important;
+          color: whitesmoke;
+}
+.time{
+          float: right;
+}
+
